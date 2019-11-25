@@ -1,0 +1,21 @@
+
+select  dbavendas.loja.ESTADO,
+		dbavendas.loja.ID as LOJAID,
+        dbavendas.loja.NOME as LOJANOME,
+        dbavendas.produto.CATEGORIA,
+        dbavendas.produto.FAMILIA,
+        dbavendas.produto.ID as PRODUTOID,
+        dbavendas.produto.NOME as PRODUTONOME,
+        dbavendas.tempo.ANO,
+        dbavendas.tempo.DIA,
+        dbavendas.tempo.ID as TEMPOID,
+        dbavendas.tempo.MES,
+        dbavendas.vendas.FATURAMENTO,
+        dbavendas.vendas.ID_LOJA,
+        dbavendas.vendas.ID_PRODUTO,
+        dbavendas.vendas.ID_TEMPO,
+        dbavendas.vendas.QUANTIDADE
+        
+
+
+FROM dbavendas.loja join dbavendas.vendas on vendas.ID_LOJA = loja.ID JOIN dbavendas.produto on vendas.ID_PRODUTO=produto.ID join dbavendas.tempo on vendas.ID_tempo=tempo.ID
