@@ -12,7 +12,7 @@ Repositório de Atividades da Matéria  Tópicos Especiais em Banco de Dados
 - SCRIPT MONGODB + DOCKER
 
 # SOLUÇÃO COMPUTACIONAL PARA CONTROLE DE SUBMISSÃO E AVALIAÇÃO DE ARTIGOS
-
+![](https://github.com/palomacorreia/TEBD/blob/master/tebd.PNG)
 
 
 
