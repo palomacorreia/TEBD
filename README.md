@@ -1,5 +1,6 @@
 # TEBD
 Repositório de Atividades da Matéria  Tópicos Especiais em Banco de Dados
+### Equipe: Lucas Santos,Paloma Correia, Talita Santos.
 
 [BLOG-AVENTURAS DE TEBD](https://tebd.home.blog/)
 
