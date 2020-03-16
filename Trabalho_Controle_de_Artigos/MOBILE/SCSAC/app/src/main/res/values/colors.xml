@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="bottomtab_item_resting">#36000000</color>
+    <color name="bottomtab_item_disabled">#1e000000</color>
+
+    <color name="bottomtab_0">#6CCC3D</color>
+    <color name="bottomtab_1">#EA5C46</color>
+    <color name="bottomtab">#33b3cc</color>
+
+    <color name="colorPrimaryNight">#3F51B5</color>
+    <color name="colorPrimaryDarkNight">#303F9F</color>
+    <color name="colorAccentNight">#FFC107</color>
+    <color name="bg_dark">#263238</color>
+    <color name="white">#FFFFFF</color>
+    <color name="linha_divisoria">#C7C8C9</color>
+    <color name="divider_light">#0c000000</color>
+    <color name="card_view">#EFF7F3</color>
+    <color name="grey">#8B8989</color>
+    <color name="grey_grey">#5D625D</color>
+    <color name="light_grey">#DCDCDC</color>
+    <color name="actionbar_dark">#237AD1</color>
+    <color name="back_grey">#F4F4F4</color>
+
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="primaryTextColor">#00a5ff</color>
+    <color name="alice_blue">#E9E9E9</color>
+    <color name="light_sky_blue">#87CEFA</color>
+</resources>

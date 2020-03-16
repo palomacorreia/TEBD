@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SC-SAC</string>
+    <string name="aguarde_carregando">Aguarde Carregando.......</string>
+    <string name="obtendo_dados">Obtendo Dados</string>
+    <string name="resumo">Resumo</string>
+    <string name="my_app_id">mystitchapp-qwern</string>
+</resources>
