@@ -47,10 +47,10 @@ public class UsuarioTable extends Usuario implements DatabaseBean{
 
         database.execSQL("CREATE TABLE " + TABLE_USUARIO + "(" +
                 COLUMN_USUARIO_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
-                COLUMN_USUARIO_NOME + " TEXT NOT NULL, " +
-                COLUMN_USUARIO_ENDERECO + " TEXT NOT NULL, " +
-                COLUMN_USUARIO_EMAIL + " TEXT NOT NULL, " +
-                COLUMN_USUARIO_LOCAL_TRABALHO + " TEXT NOT NULL, " +
+                COLUMN_USUARIO_NOME + " TEXT NULL, " +
+                COLUMN_USUARIO_ENDERECO + " TEXT NULL, " +
+                COLUMN_USUARIO_EMAIL + " TEXT NULL, " +
+                COLUMN_USUARIO_LOCAL_TRABALHO + " TEXT NULL, " +
                 COLUMN_USUARIO_IS_REVISOR + " BOOLEAN NULL, " +
                 COLUMN_USUARIO_IS_AUTOR + " BOOLEAN NULL " +
                 ");"

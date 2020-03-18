@@ -39,8 +39,6 @@ public class ResultadoAdapter extends RecyclerView.Adapter<ResultadoAdapter.MyVi
     @Override
     public void onBindViewHolder(@NonNull ResultadoAdapter.MyViewHolder holder, int position) {
         holder.nomeArtigo.setText(artigoList.get(position).getArtigoNome());
-        holder.autoresArtigo.setText("Autores: " + dataSource.getUsuByArtigo(artigoList.get(position).getArtigoId()));
-        holder.notaArtigo.setText("Média: "+artigoList.get(position).getArtigoMedia().toString());
     }
 
     @Override
@@ -50,8 +48,6 @@ public class ResultadoAdapter extends RecyclerView.Adapter<ResultadoAdapter.MyVi
 
     public class MyViewHolder extends RecyclerView.ViewHolder{
         TextView nomeArtigo = (TextView) itemView.findViewById(R.id.artigo_title);
-        TextView autoresArtigo = (TextView) itemView.findViewById(R.id.artigo_autores);
-        TextView notaArtigo = (TextView) itemView.findViewById(R.id.artigo_nota);
 
         public MyViewHolder(@NonNull final View itemView) {
             super(itemView);

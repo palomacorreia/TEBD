@@ -34,8 +34,8 @@ public class ArtigoAutorTable extends ArtigoAutor implements DatabaseBean{
 
         database.execSQL("CREATE TABLE " + TABLE_ARTIGO_AUTOR + "(" +
                 COLUMN_ARTIGO_AUTOR_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
-                COLUMN_ARTIGO_AUTOR_ART_ID + " INTEGER NOT NULL, " +
-                COLUMN_ARTIGO_AUTOR_USU_ID + " INTEGER NOT NULL," +
+                COLUMN_ARTIGO_AUTOR_ART_ID + " INTEGER NULL, " +
+                COLUMN_ARTIGO_AUTOR_USU_ID + " INTEGER NULL," +
                 COLUMN_EMAIL_AUTOR + " TEXT NULL " +
                 ");"
         );

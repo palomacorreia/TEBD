@@ -22,22 +22,6 @@
             android:textSize="20sp"/>
 
         <TextView
-            android:id="@+id/autores_artigo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:layout_marginTop="10dp"
-            android:textSize="17sp"/>
-
-        <TextView
-            android:id="@+id/media_artigo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:layout_marginTop="10dp"
-            android:textSize="15sp"/>
-
-        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/resumo"

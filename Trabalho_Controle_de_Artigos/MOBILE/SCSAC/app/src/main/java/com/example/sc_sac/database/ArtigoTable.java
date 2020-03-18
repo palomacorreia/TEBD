@@ -40,11 +40,11 @@ public class ArtigoTable extends Artigo implements DatabaseBean{
 
         database.execSQL("CREATE TABLE " + TABLE_ARTIGO + "(" +
                 COLUMN_ARTIGO_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
-                COLUMN_ARTIGO_NOME + " TEXT NOT NULL, " +
-                COLUMN_ARTIGO_RESUMO + " TEXT NOT NULL, " +
-                COLUMN_ARTIGO_ARQUIVO + " TEXT NOT NULL, " +
+                COLUMN_ARTIGO_NOME + " TEXT NULL, " +
+                COLUMN_ARTIGO_RESUMO + " TEXT NULL, " +
+                COLUMN_ARTIGO_ARQUIVO + " TEXT NULL, " +
                 COLUMN_ARTIGO_QTD_REVISORES + " INTEGER NULL, " +
-                COLUMN_ARTIGO_MEDIA + " FLOAT NOT NULL " +
+                COLUMN_ARTIGO_MEDIA + " FLOAT NULL " +
                 ");"
         );
     }

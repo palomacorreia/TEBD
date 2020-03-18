@@ -36,12 +36,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="Autores, autores, autores"
-                android:textSize="15sp"/>
-            <TextView
-                android:id="@+id/artigo_nota"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="10"
+                android:visibility="gone"
                 android:textSize="15sp"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>

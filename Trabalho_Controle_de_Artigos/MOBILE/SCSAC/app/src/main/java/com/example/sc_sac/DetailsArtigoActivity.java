@@ -17,7 +17,6 @@ public class DetailsArtigoActivity extends AppCompatActivity {
     private TextView title_artigo;
     private TextView resumo_artigo;
     private TextView autores_artigo;
-    private TextView media_artigo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,16 +26,11 @@ public class DetailsArtigoActivity extends AppCompatActivity {
         dataSource = new SacDataSource(this);
         Integer artigo_id = getIntent().getIntExtra(ARTIGO_ID,0);
         artigo = dataSource.getArtigoById(artigo_id);
-        autores = dataSource.getUsuByArtigo(artigo_id);
 
         title_artigo = findViewById(R.id.title_artigo);
         resumo_artigo = findViewById(R.id.resumo_artigo);
-        autores_artigo = findViewById(R.id.autores_artigo);
-        media_artigo = findViewById(R.id.media_artigo);
 
         title_artigo.setText(artigo.getArtigoNome());
         resumo_artigo.setText(artigo.getArtigoResumo());
-        autores_artigo.setText(autores);
-        media_artigo.setText("Média: " +artigo.getArtigoMedia().toString());
     }
 }
