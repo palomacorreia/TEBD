@@ -101,7 +101,7 @@ public class SplashActivity extends AppCompatActivity {
         JSONArray json = null;
         String resp = null;
         try {
-            URL url1 = new URL(" http://tebd-edu-br.umbler.net/artigos");
+            URL url1 = new URL("https://tebd.herokuapp.com/artigos");
             HttpURLConnection conn = (HttpURLConnection) url1.openConnection();
             conn.setRequestMethod("GET");
             InputStream in = new BufferedInputStream(conn.getInputStream());
